@@ -3,7 +3,7 @@ def countdown_to_midnight(number)
   12.times do
     puts "#{number} SECOND(S)!"
     countdown_to_midnight -= 1
-    countdown_to_midnight(1.0)
+    sleep 1
     puts "HAPPY NEW YEAR!"
   end
 end
@@ -13,7 +13,7 @@ def countdown_with_sleep(number)
   5.times do
     puts "#{number} SECOND(S)!"
     countdown_with_sleep -= 1
-    countdown_with_sleep(1.0)
+    sleep 1
     puts "HAPPY NEW YEAR!"
   end
 end
