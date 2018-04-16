@@ -1,4 +1,4 @@
-countdown-to-midnight = 10
+countdown_to_midnight = 10
 def countdown(number)
   10.times do
     puts "#{number} SECOND(S)!"
