@@ -3,6 +3,7 @@ def countdown_to_midnight(number)
   12.times do
     puts "#{number} SECOND(S)!"
     countdown_to_midnight -= 1
+    countdown_to_midnight(1.0)
     puts "HAPPY NEW YEAR!"
   end
 end
