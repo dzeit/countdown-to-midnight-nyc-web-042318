@@ -1,6 +1,6 @@
-countdown_to_midnight = 10
+countdown_to_midnight = 12
 def countdown(number)
-  10.times do
+  12.times do
     puts "#{number} SECOND(S)!"
     countdown_to_midnight -= 1
     puts "HAPPY NEW YEAR!"
