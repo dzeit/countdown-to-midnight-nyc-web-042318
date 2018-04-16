@@ -1,5 +1,5 @@
 
-def countdown_to_midnight(number)
+def countdown(number)
   number.times do
     puts "#{number} SECOND(S)!"
     number -= 1
