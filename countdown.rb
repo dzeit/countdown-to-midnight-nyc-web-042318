@@ -1,5 +1,5 @@
 countdown_to_midnight = 12
-def countdown(number)
+def countdown_to_midnight(number)
   12.times do
     puts "#{number} SECOND(S)!"
     countdown_to_midnight -= 1
@@ -8,7 +8,7 @@ def countdown(number)
 end
 
 countdown_with_sleep = 5
-def countdown(number)
+def countdown_with_sleep(number)
   5.times do
     puts "#{number} SECOND(S)!"
     countdown_with_sleep -= 1
