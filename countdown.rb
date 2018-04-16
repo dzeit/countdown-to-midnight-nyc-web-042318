@@ -1,8 +1,8 @@
-countdown_to_midnight = 12
+
 def countdown_to_midnight(number)
-  12.times do
+  number.times do
     puts "#{number} SECOND(S)!"
-    countdown_to_midnight -= 1
+    number -= 1
     sleep 1
     puts "HAPPY NEW YEAR!"
   end
